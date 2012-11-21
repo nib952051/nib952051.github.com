@@ -1,22 +1,23 @@
 ---
 layout: page
 title: Hello World!
-tagline: Supporting tagline
+tagline: бложек
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+Привет всем я планирую завести бложик
+Идея эта довольна не свежа, но у меня есть пара аргументов за
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+1. Иногда хочется писать не тупо в текстовый файл^W полку, тем более что часто не пишу ничего приватного.
+Наличие когда-то жж, микроблогов(тип джуика, тви). Желание куда-то ныть, что-то делать, о чем-то рассказывать, делиться кусками кода
 
-## Sample Posts
+2. Часто бывает нужно вернуться по истории серфинга интернета на Н шагов назад на какой-то документ. И ещё одна предпосылка,
+мне удобнее складывать открытые вкладки куда-то в файл с описанием, чем таскать все это с браузером, тем более когда не можешь понять
+задача решена или придётся к ней вернуться позже
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+3. Планирую чуть позже начать выкидывать ненужные куски кода
 
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+### Последние записи
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -26,6 +27,6 @@ Here's a sample "posts list".
 
 ## To-Do
 
-Начать переносить сюда всю лабуд.
+Начать переносить сюда всю лабуду
 
 
