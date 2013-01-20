@@ -27,3 +27,4 @@ title : Sitemap
   <priority>0.65</priority>
 </url>
 {% endfor %}
+</urlset>
